@@ -1,0 +1,27 @@
+# Each route describes how an incoming URL is going to be processed by Platform.sh.
+"https://www.boundarycommission.org.uk/":
+  type: upstream
+  upstream: "unity:http"
+  cache:
+    enabled: false
+
+"https://boundarycommission.org.uk.{default}/":
+  type: redirect
+  to: "https://www.boundarycommission.org.uk.{default}/"
+
+"https://boundarycommission.org.uk/":
+  type: redirect
+  to: "https://www.boundarycommission.org.uk/"
+
+#---------------------------------
+
+# Catch all.
+"https://www.{all}/":
+  type: upstream
+  upstream: "unity:http"
+  cache:
+    enabled: false
+
+"https://{all}/":
+  type: redirect
+  to: "https://www.{all}/"
