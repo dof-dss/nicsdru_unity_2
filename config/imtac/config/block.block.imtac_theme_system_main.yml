@@ -1,0 +1,20 @@
+uuid: a0f00453-c19e-4d50-aec6-5bc98dc1d063
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stark
+id: imtac_theme_system_main
+theme: stark
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  provider: system
+  label_display: '0'
+visibility: {  }

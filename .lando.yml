@@ -1,3 +1,11 @@
 proxy:
   appserver:
     - boundarycommission.org.uk.lndo.site
+    - imtac.org.uk.lndo.site
+services:
+  imtac_solr:
+    type: solr:7
+    portforward: true
+    core: default
+    config:
+      dir: .lando/config/solr/7.x/default
