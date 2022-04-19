@@ -1,4 +1,4 @@
-recipe: drupal9
+recipe: drupal8
 config:
   webroot: web
   database: mariadb
