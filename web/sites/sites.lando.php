@@ -8,3 +8,4 @@
  */
 
 $sites['boundarycommission.org.uk.lndo.site'] = 'boundarycommission';
+$sites['ircommission.org.lndo.site'] = 'ircommission';

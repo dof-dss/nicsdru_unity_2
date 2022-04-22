@@ -1,0 +1,35 @@
+uuid: 2129966e-2a98-44b9-ad79-9ed224116e29
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.publication_page.body
+    - field.field.node.publication_page.field_metatag
+    - field.field.node.publication_page.field_publication_date
+    - field.field.node.publication_page.field_publication_type
+    - node.type.publication_page
+  module:
+    - text
+    - user
+id: node.publication_page.default
+targetEntityType: node
+bundle: publication_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_metatag: true
+  field_publication_date: true
+  field_publication_type: true
+  langcode: true
