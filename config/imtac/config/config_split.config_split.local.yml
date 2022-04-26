@@ -9,6 +9,7 @@ folder: ../config/imtac/local
 module:
   dblog: 0
   easy_install: 0
+  imtac_migrations: 0
   migrate: 0
   migrate_drupal: 0
   migrate_drupal_ui: 0

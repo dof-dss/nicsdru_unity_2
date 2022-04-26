@@ -1,4 +1,4 @@
-uuid: fbabb04a-5e2c-4218-8db7-30d4a60e966c
+uuid: 9c4f808a-fbc7-4f46-91ba-97b3be4b3261
 langcode: en
 status: true
 dependencies: {  }
@@ -80,33 +80,6 @@ process:
     -
       plugin: get
       source: body
-    -
-      plugin: media_wysiwyg_filter
-    -
-      plugin: filter_absolute_links
-      replace_urls:
-        http://www.imtac.org.uk
-        https://www.imtac.org.uk
-    -
-      plugin: site_files_filter
-      from_ref: sites/imtac/files
-      to_ref: files/imtac
-    -
-      plugin: site_files_filter
-      from_ref: sites/imtac.org.uk/files
-      to_ref: files/imtac
-
-  body/0/format:
-    -
-      plugin: static_map
-      bypass: true
-      source: body/0/format
-      map:
-        filtered_html: basic_html
-        filtered_html_with_no_images: basic_html
-        filtered_html_with_tokens: basic_html
-        restricted_html: basic_html
-        plain_text: plain_text
   field_enable_toc:
     -
       plugin: get

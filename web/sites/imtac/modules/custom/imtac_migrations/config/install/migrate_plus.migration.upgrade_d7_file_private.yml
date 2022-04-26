@@ -1,4 +1,4 @@
-uuid: d5d5c226-5e78-4e98-adc8-b14c114c28f7
+uuid: b8e40022-2edc-42a0-9fc3-2eec6d611b29
 langcode: en
 status: true
 dependencies: {  }
@@ -15,7 +15,7 @@ source:
   plugin: d7_file
   scheme: private
   constants:
-    source_base_path: 'https://www.imtac.org.uk/'
+    source_base_path: 'http://www.uregni.gov.uk/'
 process:
   fid:
     -
@@ -65,5 +65,7 @@ process:
 destination:
   plugin: 'entity:file'
 migration_dependencies:
+  optional:
+    - upgrade_d7_metatag_field
+    - upgrade_d7_metatag_field_instance
   required: {  }
-  optional: {  }

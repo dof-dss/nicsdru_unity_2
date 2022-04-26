@@ -1,4 +1,4 @@
-uuid: 07cdd916-f6f8-44a6-9fa0-8d090ba5df7b
+uuid: b4f19690-d82d-4e54-810b-2faa4762e523
 langcode: en
 status: true
 dependencies:
@@ -11,13 +11,13 @@ third_party_settings:
     parent: ''
   origins_toc:
     toc_enable: 1
-    toc_title: Contents
+    toc_title: 'Table of contents'
     toc_location: .page-title
     toc_insert: after
-    toc_source_container: '#block-main.content-content'
+    toc_source_container: '#block-main-content.content'
     toc_element: h2
     toc_exclusions: ''
-    toc_screen_depth: '2'
+    toc_screen_depth: '1'
     toc_debug: 0
 name: 'Basic page'
 type: page
