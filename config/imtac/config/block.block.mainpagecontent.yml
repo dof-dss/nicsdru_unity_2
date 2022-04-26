@@ -1,20 +1,20 @@
-uuid: ce11d1a4-da59-44a3-91c5-29b0c19ad85f
+uuid: c57aee4a-f6f8-4c32-85ec-9f32dc6c37b6
 langcode: en
-status: false
+status: true
 dependencies:
   module:
     - system
   theme:
-    - bartik
-id: bartik_system_main
-theme: bartik
-region: ''
-weight: 0
+    - imtac_theme
+id: mainpagecontent
+theme: imtac_theme
+region: content
+weight: -2
 provider: null
 plugin: system_main_block
 settings:
   id: system_main_block
-  label: ''
+  label: 'Main page content'
   provider: system
   label_display: '0'
 visibility: {  }

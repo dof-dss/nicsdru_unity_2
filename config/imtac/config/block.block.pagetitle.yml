@@ -1,0 +1,18 @@
+uuid: 4175008d-93a5-439d-a942-07bca7235d30
+langcode: en
+status: true
+dependencies:
+  theme:
+    - imtac_theme
+id: pagetitle
+theme: imtac_theme
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

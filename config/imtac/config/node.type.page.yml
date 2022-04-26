@@ -1,15 +1,24 @@
-uuid: e4c4a1b8-ca25-45b8-a808-1e9e8ad892fa
+uuid: 07cdd916-f6f8-44a6-9fa0-8d090ba5df7b
 langcode: en
 status: true
 dependencies:
   module:
     - menu_ui
+    - origins_toc
 third_party_settings:
   menu_ui:
-    available_menus:
-      - main-menu
-      - menu-side-menu
-    parent: 'main-menu:0:'
+    available_menus: {  }
+    parent: ''
+  origins_toc:
+    toc_enable: 1
+    toc_title: Contents
+    toc_location: .page-title
+    toc_insert: after
+    toc_source_container: '#block-main.content-content'
+    toc_element: h2
+    toc_exclusions: ''
+    toc_screen_depth: '2'
+    toc_debug: 0
 name: 'Basic page'
 type: page
 description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'

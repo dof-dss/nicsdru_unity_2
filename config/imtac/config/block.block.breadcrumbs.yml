@@ -1,0 +1,24 @@
+uuid: e458748b-7383-4c5d-a08c-2a1a24afe613
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - imtac_theme
+id: breadcrumbs
+theme: imtac_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
