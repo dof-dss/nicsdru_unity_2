@@ -80,6 +80,32 @@ process:
     -
       plugin: get
       source: body
+    -
+      plugin: media_wysiwyg_filter
+    -
+      plugin: filter_absolute_links
+      replace_urls:
+        http://www.ircommission.org
+        https://www.ircommission.org
+    -
+      plugin: site_files_filter
+      from_ref: sites/ircommission/files
+      to_ref: files/ircommission
+    -
+      plugin: site_files_filter
+      from_ref: sites/ircommission.org/files
+      to_ref: files/ircommission
+  body/0/format:
+    -
+      plugin: static_map
+      bypass: true
+      source: body/0/format
+      map:
+        filtered_html: basic_html
+        filtered_html_with_no_images: basic_html
+        filtered_html_with_tokens: basic_html
+        restricted_html: basic_html
+        plain_text: plain_text
   field_publication_date:
     -
       plugin: sub_process
