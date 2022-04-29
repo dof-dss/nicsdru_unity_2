@@ -1,0 +1,28 @@
+uuid: 25ec1193-95e3-4af1-a41c-f7caa3187ab3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news
+  module:
+    - system
+    - views
+  theme:
+    - imtac_theme
+id: exposedformnewsnews
+theme: imtac_theme
+region: sidebar_first
+weight: -5
+provider: null
+plugin: 'views_exposed_filter_block:news-news'
+settings:
+  id: 'views_exposed_filter_block:news-news'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /news
+    negate: false

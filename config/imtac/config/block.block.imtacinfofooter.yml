@@ -10,8 +10,8 @@ dependencies:
     - imtac_theme
 id: imtacinfofooter
 theme: imtac_theme
-region: footer_first
-weight: 0
+region: footer
+weight: -4
 provider: null
 plugin: 'block_content:d452e45a-10ce-4384-93cb-e0cd1c7be88a'
 settings:

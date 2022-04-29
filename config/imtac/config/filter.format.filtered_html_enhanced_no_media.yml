@@ -1,6 +1,6 @@
 uuid: bcffa446-7067-45fd-9e70-11ca9f430d90
 langcode: en
-status: true
+status: false
 dependencies: {  }
 name: 'Filtered HTML enhanced no media'
 format: filtered_html_enhanced_no_media

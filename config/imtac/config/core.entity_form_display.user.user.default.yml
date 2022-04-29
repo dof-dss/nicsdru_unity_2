@@ -3,12 +3,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.user.user.field_metatag
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
     - image
-    - metatag
     - path
     - user
 _core:
@@ -23,13 +21,6 @@ content:
     region: content
   contact:
     weight: 5
-    region: content
-  field_metatag:
-    weight: 32
-    settings:
-      sidebar: true
-    third_party_settings: {  }
-    type: metatag_firehose
     region: content
   google_analytics:
     weight: 3
