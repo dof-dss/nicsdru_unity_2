@@ -13,8 +13,10 @@ dependencies:
     - node.type.layout_page
     - node.type.link
     - node.type.news
+    - node.type.page
     - node.type.profile
     - node.type.publication
+    - node.type.publication_page
     - node.type.webform
   module:
     - content_moderation
@@ -115,7 +117,9 @@ type_settings:
       - layout_page
       - link
       - news
+      - page
       - profile
       - publication
+      - publication_page
       - webform
   default_moderation_state: draft
