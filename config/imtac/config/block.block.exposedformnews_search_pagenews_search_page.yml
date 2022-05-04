@@ -1,0 +1,28 @@
+uuid: 5c4b8ff9-c2cd-48db-b0f3-0113fe6e23fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.news_search_page
+  module:
+    - system
+    - views
+  theme:
+    - imtac_theme
+id: exposedformnews_search_pagenews_search_page
+theme: imtac_theme
+region: search_facets
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:news_search_page-news_search_page'
+settings:
+  id: 'views_exposed_filter_block:news_search_page-news_search_page'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "/news\r\n/news/date/*"
+    negate: false

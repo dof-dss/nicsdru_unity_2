@@ -1,0 +1,28 @@
+uuid: 95244280-7949-4eab-9c39-81f9e3dc4e17
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.date
+  module:
+    - facets
+    - system
+  theme:
+    - imtac_theme
+id: date
+theme: imtac_theme
+region: search_facets
+weight: 0
+provider: null
+plugin: 'facet_block:date'
+settings:
+  id: 'facet_block:date'
+  label: date
+  provider: facets
+  label_display: visible
+  block_id: date
+visibility:
+  request_path:
+    id: request_path
+    pages: "/news\r\n/news/date/*"
+    negate: false
