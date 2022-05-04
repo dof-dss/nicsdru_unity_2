@@ -12,11 +12,9 @@ module:
   ckeditor: 0
   clientside_validation: 0
   clientside_validation_jquery: 0
-  comment: 0
   config: 0
   config_filter: 0
   config_ignore: 0
-  config_split: 0
   contact: 0
   content_lock: 0
   content_lock_timeout: 0
@@ -28,10 +26,11 @@ module:
   date_facet_drilldown: 0
   datetime: 0
   datetime_range: 0
-  devel: 0
+  dblog: 0
   diff: 0
   dynamic_entity_reference: 0
   dynamic_page_cache: 0
+  easy_install: 0
   editor: 0
   embed: 0
   entity_browser: 0
@@ -40,6 +39,7 @@ module:
   entity_reference_revisions: 0
   facets: 0
   facets_pretty_paths: 0
+  facets_summary: 0
   field: 0
   field_group: 0
   field_group_migrate: 0
@@ -60,6 +60,7 @@ module:
   honeypot: 0
   http_cache_control: 0
   image: 0
+  imtac_migrations: 0
   inline_entity_form: 0
   inline_form_errors: 0
   language: 0
@@ -77,7 +78,12 @@ module:
   metatag_open_graph: 0
   metatag_twitter_cards: 0
   metatag_views: 0
+  migrate: 0
   migrate_absolute_links: 0
+  migrate_drupal: 0
+  migrate_drupal_ui: 0
+  migrate_plus: 0
+  migrate_tools: 0
   migrate_upgrade: 0
   moderation_sidebar: 0
   node: 0
@@ -100,11 +106,11 @@ module:
   scheduled_transitions: 0
   search_api: 0
   search_api_autocomplete: 0
+  search_api_location: 0
+  search_api_location_views: 0
   search_api_solr: 0
+  search_api_spellcheck: 0
   simplei: 0
-  slick: 0
-  slick_ui: 0
-  slick_views: 0
   structure_sync: 0
   system: 0
   taxonomy: 0

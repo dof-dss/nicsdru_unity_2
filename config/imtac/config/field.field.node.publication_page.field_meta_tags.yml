@@ -1,23 +1,21 @@
-uuid: 38c97adf-687f-4094-aaea-c0836607d00b
+uuid: 1cac1768-7466-4082-bc68-d0526ed7e80f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
+    - field.storage.node.field_meta_tags
     - node.type.publication_page
   module:
-    - text
-id: node.publication_page.body
-field_name: body
+    - metatag
+id: node.publication_page.field_meta_tags
+field_name: field_meta_tags
 entity_type: node
 bundle: publication_page
-label: Body
+label: 'Meta tags'
 description: ''
 required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
-settings:
-  display_summary: true
-  required_summary: false
-field_type: text_with_summary
+settings: {  }
+field_type: metatag

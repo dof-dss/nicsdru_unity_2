@@ -1,4 +1,4 @@
-uuid: b4f19690-d82d-4e54-810b-2faa4762e523
+uuid: 07cdd916-f6f8-44a6-9fa0-8d090ba5df7b
 langcode: en
 status: true
 dependencies:
@@ -11,10 +11,10 @@ third_party_settings:
     parent: ''
   origins_toc:
     toc_enable: 1
-    toc_title: 'In this section'
-    toc_location: '#post-content .page-content'
-    toc_insert: before
-    toc_source_container: '#post-content .page-content'
+    toc_title: Contents
+    toc_location: .page-title
+    toc_insert: after
+    toc_source_container: '#block-mainpagecontent .content'
     toc_element: h2
     toc_exclusions: ''
     toc_screen_depth: '2'

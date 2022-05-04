@@ -1,18 +1,16 @@
-uuid: 9ce56d7f-bcac-40a8-acc9-9e66b13fea86
+uuid: d8f6bdb6-12ba-4f22-ae88-f032ea1a72c3
 langcode: en
 status: true
 dependencies:
   module:
-    - media
     - node
-_core:
-  default_config_hash: NdzErWmh4yJtMOdjY7KTujgy9CJNWrnSi3mKfpSaMe4
-id: node.field_photo
-field_name: field_photo
+    - taxonomy
+id: node.field_publication_type
+field_name: field_publication_type
 entity_type: node
 type: entity_reference
 settings:
-  target_type: media
+  target_type: taxonomy_term
 module: core
 locked: false
 cardinality: 1

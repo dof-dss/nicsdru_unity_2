@@ -1,11 +1,16 @@
-uuid: 7248dfca-d376-47a0-bf32-e96ea1075b7f
+uuid: e498cdc6-eef9-4566-affe-44fb7c2745a9
 langcode: en
 status: true
 dependencies:
   config:
     - field.field.node.publication_page.body
+    - field.field.node.publication_page.field_meta_tags
+    - field.field.node.publication_page.field_publication_type
+    - field.field.node.publication_page.field_published_date
     - node.type.publication_page
   module:
+    - datetime
+    - metatag
     - text
     - user
 id: node.publication_page.default
@@ -19,6 +24,30 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_meta_tags:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_publication_type:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_published_date:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
     region: content
   links:
     weight: 100

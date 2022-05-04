@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_metatag
     - field.field.user.user.user_picture
   module:
     - image
@@ -27,4 +28,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_metatag: true
   langcode: true
