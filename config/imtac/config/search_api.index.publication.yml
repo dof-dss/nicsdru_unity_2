@@ -5,6 +5,7 @@ dependencies:
   module:
     - search_api_solr
     - node
+    - taxonomy
     - search_api
   config:
     - field.storage.node.body
@@ -69,7 +70,7 @@ field_settings:
     label: Type
     datasource_id: 'entity:node'
     property_path: field_publication_type
-    type: text
+    type: string
     dependencies:
       config:
         - field.storage.node.field_publication_type
@@ -89,6 +90,16 @@ field_settings:
     dependencies:
       module:
         - node
+  name:
+    label: 'Type » Taxonomy term » Name'
+    datasource_id: 'entity:node'
+    property_path: 'field_publication_type:entity:name'
+    type: string
+    dependencies:
+      config:
+        - field.storage.node.field_publication_type
+      module:
+        - taxonomy
   title:
     label: Title
     datasource_id: 'entity:node'

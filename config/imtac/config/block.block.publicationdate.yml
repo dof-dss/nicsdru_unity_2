@@ -1,28 +1,28 @@
-uuid: 95244280-7949-4eab-9c39-81f9e3dc4e17
+uuid: 8572d9b2-d597-4fee-be60-9d7c5efc70b1
 langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.date
+    - facets.facet.publication_date
   module:
     - facets
     - system
   theme:
     - imtac_theme
-id: date
+id: publicationdate
 theme: imtac_theme
 region: search_facets
 weight: 0
 provider: null
-plugin: 'facet_block:date'
+plugin: 'facet_block:publication_date'
 settings:
-  id: 'facet_block:date'
-  label: 'Published Date'
+  id: 'facet_block:publication_date'
+  label: 'Publication Date'
   provider: facets
   label_display: visible
-  block_id: date
+  block_id: publicationdate
 visibility:
   request_path:
     id: request_path
-    pages: "/news\r\n/news/date/*"
+    pages: "/publications\r\n/publication/date/*"
     negate: false

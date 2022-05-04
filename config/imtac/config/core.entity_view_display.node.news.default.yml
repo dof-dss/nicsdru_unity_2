@@ -13,7 +13,7 @@ dependencies:
     - node.type.news
   module:
     - datetime
-    - image
+    - origins_common
     - text
     - user
 _core:
@@ -33,10 +33,11 @@ content:
   field_photo:
     label: hidden
     weight: 2
-    type: image
+    type: html_list_formatter
     settings:
-      image_link: ''
-      image_style: ''
+      list_type: ul
+      list_classes: ''
+      display_item_link: false
     third_party_settings: {  }
     region: content
   field_published_date:
@@ -44,8 +45,8 @@ content:
     weight: 1
     type: datetime_default
     settings:
-      format_type: long
       timezone_override: ''
+      format_type: medium
     third_party_settings: {  }
     region: content
   field_teaser:
@@ -63,3 +64,4 @@ hidden:
   field_summary: true
   langcode: true
   links: true
+  search_api_excerpt: true
