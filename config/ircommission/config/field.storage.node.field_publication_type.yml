@@ -1,19 +1,27 @@
-uuid: 33c0aae5-1343-4bea-a7a6-830ce3c7f5b8
+uuid: 4d1f3a9e-41b5-4905-8bc5-4a1ad263f184
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - taxonomy
-_core:
-  default_config_hash: e4x9ghNeGMDBWb34flNGaCxZNhE1JJddu_3NMWrRqss
+    - options
 id: node.field_publication_type
 field_name: field_publication_type
 entity_type: node
-type: entity_reference
+type: list_string
 settings:
-  target_type: taxonomy_term
-module: core
+  allowed_values:
+    -
+      value: correspondence
+      label: Correspondence
+    -
+      value: key_document
+      label: 'Key documents'
+    -
+      value: reports
+      label: Reports
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true

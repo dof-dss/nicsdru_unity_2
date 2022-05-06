@@ -1,0 +1,29 @@
+uuid: 58467617-a305-4fda-81e6-c81c44d152ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.irc_key_documents_views
+  module:
+    - system
+    - views
+  theme:
+    - ircommission_theme
+id: views_block__irc_key_documents_views_block_2
+theme: ircommission_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:irc_key_documents_views-block_2'
+settings:
+  id: 'views_block:irc_key_documents_views-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: node/8
+    negate: false

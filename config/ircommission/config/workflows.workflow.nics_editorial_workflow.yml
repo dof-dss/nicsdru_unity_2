@@ -15,7 +15,6 @@ dependencies:
     - node.type.news
     - node.type.page
     - node.type.profile
-    - node.type.publication
     - node.type.publication_page
     - node.type.webform
   module:
@@ -119,7 +118,6 @@ type_settings:
       - news
       - page
       - profile
-      - publication
       - publication_page
       - webform
   default_moderation_state: draft

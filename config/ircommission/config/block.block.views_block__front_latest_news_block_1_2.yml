@@ -1,0 +1,24 @@
+uuid: e856a585-f12e-4d14-8afd-23f2a206be54
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.front_latest_news
+  module:
+    - views
+  theme:
+    - ircommission_theme
+id: views_block__front_latest_news_block_1_2
+theme: ircommission_theme
+region: top_second
+weight: 0
+provider: null
+plugin: 'views_block:front_latest_news-block_1'
+settings:
+  id: 'views_block:front_latest_news-block_1'
+  label: News
+  provider: views
+  label_display: visible
+  views_label: News
+  items_per_page: none
+visibility: {  }

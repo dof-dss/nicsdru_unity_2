@@ -1,0 +1,32 @@
+uuid: 872e7a65-3984-4fcc-9da9-e792e5de0f5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_news
+  module:
+    - node
+    - views
+  theme:
+    - ircommission_theme
+id: views_block__latest_news_latest_news_list
+theme: ircommission_theme
+region: sidebar_second
+weight: -3
+provider: null
+plugin: 'views_block:latest_news-latest_news_list'
+settings:
+  id: 'views_block:latest_news-latest_news_list'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      news: news
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
