@@ -1,27 +1,27 @@
-uuid: adc0fadc-ebe2-4048-a2eb-b71edc2cb34c
+uuid: 288e577e-dc98-4579-a818-5646ba0a0053
 langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.publication_type
+    - facets.facet.publication_date
   module:
     - block_visibility_groups
     - facets
     - system
   theme:
     - ircommission_theme
-id: publication_type
+id: date
 theme: ircommission_theme
 region: search_facets
-weight: -2
+weight: -1
 provider: null
-plugin: 'facet_block:publication_type'
+plugin: 'facet_block:publication_date'
 settings:
-  id: 'facet_block:publication_type'
-  label: Type
+  id: 'facet_block:publication_date'
+  label: Date
   provider: facets
   label_display: visible
-  block_id: publication_type
+  block_id: date
 visibility:
   condition_group:
     id: condition_group

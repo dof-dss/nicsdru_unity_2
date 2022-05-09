@@ -1,4 +1,4 @@
-uuid: 3655c80a-8855-4465-8d33-4f9799c07c4e
+uuid: aac0df09-ab03-4361-8f03-c838aff26598
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,8 @@ dependencies:
     - search_api.index.publications
     - views.view.publications_search
   module:
-    - facets_pretty_paths
     - search_api
-third_party_settings:
-  facets_pretty_paths:
-    coder: taxonomy_term_coder
-id: publication_type
+id: type
 name: Type
 url_alias: type
 weight: 0
@@ -22,20 +18,20 @@ facet_source_id: 'search_api:views_page__publications_search__publications_searc
 widget:
   type: links
   config:
-    show_numbers: true
-    soft_limit: 20
+    soft_limit: 0
     soft_limit_settings:
-      show_less_label: 'Show fewer'
+      show_less_label: 'Show less'
       show_more_label: 'Show more'
     show_reset_link: false
-    reset_text: 'Show all'
     hide_reset_when_no_selection: false
-query_operator: and
+    reset_text: 'Show all'
+    show_numbers: false
+query_operator: null
 use_hierarchy: false
 keep_hierarchy_parents_active: false
 expand_hierarchy: false
 enable_parent_when_child_gets_disabled: true
-hard_limit: 0
+hard_limit: null
 exclude: false
 only_visible_when_facet_source_is_visible: true
 processor_configs:
@@ -43,18 +39,16 @@ processor_configs:
     processor_id: active_widget_order
     weights:
       sort: 20
-    settings:
-      sort: ASC
+    settings: {  }
   count_widget_order:
     processor_id: count_widget_order
     weights:
       sort: 30
-    settings:
-      sort: DESC
-  list_item:
-    processor_id: list_item
+    settings: {  }
+  display_value_widget_order:
+    processor_id: display_value_widget_order
     weights:
-      build: 5
+      sort: 40
     settings: {  }
   url_processor_handler:
     processor_id: url_processor_handler
@@ -64,4 +58,4 @@ processor_configs:
     settings: {  }
 empty_behavior:
   behavior: none
-show_title: false
+show_title: null

@@ -1,6 +1,6 @@
 uuid: a8bac02d-2116-4fa2-b4a2-8f1efbf3ca3c
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:about_irc_block:d9ff9dd7-616f-4759-b541-c1fe28585240'

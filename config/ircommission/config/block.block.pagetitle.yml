@@ -1,4 +1,4 @@
-uuid: 97253c90-372f-4aae-8646-784879851895
+uuid: 36cad572-a276-4c08-8bf1-85384b1e5b4d
 langcode: en
 status: true
 dependencies:
@@ -7,19 +7,23 @@ dependencies:
     - system
   theme:
     - ircommission_theme
-id: mainpagecontent
+id: pagetitle
 theme: ircommission_theme
 region: content
-weight: 0
+weight: -1
 provider: null
-plugin: system_main_block
+plugin: page_title_block
 settings:
-  id: system_main_block
-  label: 'Main page content'
-  provider: system
+  id: page_title_block
+  label: 'Page title'
+  provider: core
   label_display: '0'
 visibility:
   condition_group:
     id: condition_group
     negate: false
     block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: "/key-documents\r\n/publications\r\n/research\r\n/contact-us"
+    negate: false
