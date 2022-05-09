@@ -1,25 +1,25 @@
-uuid: 5c4b8ff9-c2cd-48db-b0f3-0113fe6e23fe
+uuid: f64cab0f-868f-4fa0-8c9d-d57fccf79ed7
 langcode: en
 status: true
 dependencies:
   config:
-    - views.view.news_search_page
+    - views.view.news_search
   module:
     - system
     - views
   theme:
     - imtac_theme
-id: exposedformnews_search_pagenews_search_page
+id: exposedformnews_searchnews_search_page
 theme: imtac_theme
 region: search_facets
-weight: 0
+weight: -6
 provider: null
-plugin: 'views_exposed_filter_block:news_search_page-news_search_page'
+plugin: 'views_exposed_filter_block:news_search-news_search_page'
 settings:
-  id: 'views_exposed_filter_block:news_search_page-news_search_page'
+  id: 'views_exposed_filter_block:news_search-news_search_page'
   label: ''
   provider: views
-  label_display: visible
+  label_display: '0'
   views_label: ''
 visibility:
   request_path:

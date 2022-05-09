@@ -1,4 +1,4 @@
-uuid: b7d837e0-46a1-48ad-98f0-89b1e9cf0015
+uuid: f25fc994-2ec6-45d3-b75c-e4633070b6d4
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ dependencies:
   module:
     - datetime
     - search_api
-id: publication_search
-label: Publication_Search
+id: publications_search
+label: 'Publications Search'
 module: views
 description: ''
 tag: ''
@@ -72,13 +72,13 @@ display:
           grouping: {  }
           row_class: ''
           default_row_class: true
+          uses_fields: false
       row:
-        type: fields
+        type: search_api
         options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
+          view_modes:
+            'entity:node':
+              publication_page: default
       fields:
         title:
           id: title
@@ -236,7 +236,7 @@ display:
           exposed: true
           expose:
             operator_id: search_api_fulltext_op
-            label: 'Search Publications'
+            label: ''
             description: ''
             use_operator: false
             operator: search_api_fulltext_op

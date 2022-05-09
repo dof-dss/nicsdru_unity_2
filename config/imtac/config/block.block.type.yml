@@ -1,28 +1,28 @@
-uuid: 07baf265-04e1-4d0b-9e94-d9226ba4b723
+uuid: fcf98ac7-dc2e-44cf-a5be-1a5b249820fa
 langcode: en
 status: true
 dependencies:
   config:
-    - facets.facet.publicati
+    - facets.facet.type
   module:
     - facets
     - system
   theme:
     - imtac_theme
-id: publicationtype
+id: type
 theme: imtac_theme
 region: search_facets
-weight: 0
+weight: -2
 provider: null
-plugin: 'facet_block:publicati'
+plugin: 'facet_block:type'
 settings:
-  id: 'facet_block:publicati'
-  label: 'Publication Type'
+  id: 'facet_block:type'
+  label: Type
   provider: facets
   label_display: visible
-  block_id: publicationtype
+  block_id: type
 visibility:
   request_path:
     id: request_path
-    pages: "/publications\r\n/publication/date/*"
+    pages: "/publications\r\n/publications/type/*"
     negate: false

@@ -1,4 +1,4 @@
-uuid: c3f42568-b136-4ecd-b5f3-f5c64c0f28da
+uuid: 0d3980a4-f903-4b80-a9cb-1ee020427dc4
 langcode: en
 status: true
 dependencies:
@@ -9,8 +9,8 @@ dependencies:
   module:
     - search_api
     - text
-id: news_search_page
-label: 'News Search Page'
+id: news_search
+label: 'News Search'
 module: views
 description: ''
 tag: ''
@@ -160,7 +160,7 @@ display:
           exposed: true
           expose:
             operator_id: search_api_fulltext_op
-            label: 'Search Keywords'
+            label: ''
             description: ''
             use_operator: false
             operator: search_api_fulltext_op

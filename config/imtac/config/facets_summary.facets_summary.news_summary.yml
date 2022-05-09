@@ -1,25 +1,20 @@
-uuid: 2d17a8b3-696d-4fc8-a534-050c21debded
+uuid: bbcf61b6-5150-4515-9632-f1f9e358a332
 langcode: en
 status: true
 dependencies:
   config:
     - search_api.index.news
-    - views.view.news_search_page
+    - views.view.news_search
   module:
     - search_api
 id: news_summary
-name: News_summary
+name: 'News Summary'
 facets:
-  date:
+  published_date:
     checked: true
-    label: Date
+    label: 'Published date'
     separator: ', '
     weight: 0
     show_count: false
-facet_source_id: 'search_api:views_page__news_search_page__news_search_page'
-processor_configs:
-  hide_when_not_rendered:
-    processor_id: hide_when_not_rendered
-    weights:
-      build: '45'
-    settings: {  }
+facet_source_id: 'search_api:views_page__news_search__news_search_page'
+processor_configs: {  }

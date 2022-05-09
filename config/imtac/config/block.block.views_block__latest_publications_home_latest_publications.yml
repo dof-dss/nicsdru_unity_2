@@ -1,0 +1,29 @@
+uuid: 447d750a-c602-44d1-a3ee-7737f48f88fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.latest_publications
+  module:
+    - system
+    - views
+  theme:
+    - imtac_theme
+id: views_block__latest_publications_home_latest_publications
+theme: imtac_theme
+region: bottom_widget_2
+weight: -7
+provider: null
+plugin: 'views_block:latest_publications-home_latest_publications'
+settings:
+  id: 'views_block:latest_publications-home_latest_publications'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false

@@ -1,20 +1,20 @@
-uuid: 6a83d05f-34de-4239-8f88-e6b3699ad7a2
+uuid: 6435f8c0-40df-4c0f-a76f-b5b26e0e39eb
 langcode: en
 status: true
 dependencies:
   config:
-    - search_api.index.news
-    - views.view.news_search_page
+    - search_api.index.publication
+    - views.view.publications_search
   module:
     - search_api
 id: date
-name: date
+name: Date
 url_alias: date
 weight: 0
 min_count: 1
 show_only_one_result: false
 field_identifier: field_published_date
-facet_source_id: 'search_api:views_page__news_search_page__news_search_page'
+facet_source_id: 'search_api:views_page__publications_search__publication_search_page'
 widget:
   type: links
   config:

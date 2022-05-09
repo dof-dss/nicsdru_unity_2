@@ -1,27 +1,27 @@
-uuid: 7fd15f09-082a-407f-9e70-8551b2a0639e
+uuid: c205ea8f-afdf-47c9-b3ac-6d160b8c3650
 langcode: en
 status: true
 dependencies:
   config:
     - search_api.index.publication
-    - views.view.publication_search
+    - views.view.publications_search
   module:
     - search_api
-id: publication_date
-name: 'Publication Date'
-url_alias: date
+id: type
+name: Type
+url_alias: type
 weight: 0
 min_count: 1
 show_only_one_result: false
-field_identifier: field_published_date
-facet_source_id: 'search_api:views_page__publication_search__publication_search_page'
+field_identifier: name
+facet_source_id: 'search_api:views_page__publications_search__publication_search_page'
 widget:
   type: links
   config:
     show_numbers: true
     soft_limit: 20
     soft_limit_settings:
-      show_less_label: 'Show less'
+      show_less_label: 'Show fewer'
       show_more_label: 'Show more'
     show_reset_link: false
     reset_text: 'Show all'
@@ -41,25 +41,17 @@ processor_configs:
       sort: 20
     settings:
       sort: ASC
-  date_facet_drilldown:
-    processor_id: date_facet_drilldown
+  count_widget_order:
+    processor_id: count_widget_order
     weights:
-      build: 1
-    settings: {  }
-  date_item:
-    processor_id: date_item
-    weights:
-      build: 35
-    settings:
-      date_display: actual_date
-      granularity: 6
-      date_format: ''
-  raw_value_widget_order:
-    processor_id: raw_value_widget_order
-    weights:
-      sort: 50
+      sort: 30
     settings:
       sort: DESC
+  list_item:
+    processor_id: list_item
+    weights:
+      build: 5
+    settings: {  }
   url_processor_handler:
     processor_id: url_processor_handler
     weights:

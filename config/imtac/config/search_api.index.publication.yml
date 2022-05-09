@@ -9,8 +9,8 @@ dependencies:
     - search_api
   config:
     - field.storage.node.body
-    - field.storage.node.field_published_date
     - field.storage.node.field_publication_type
+    - field.storage.node.field_published_date
     - search_api.server.solr_default
 third_party_settings:
   search_api_solr:
