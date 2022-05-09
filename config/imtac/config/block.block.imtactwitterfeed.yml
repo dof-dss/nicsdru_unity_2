@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:a0cbee02-5890-4625-9769-775a1d200ec0'
 settings:
   id: 'block_content:a0cbee02-5890-4625-9769-775a1d200ec0'
-  label: 'IMTAC Twitter Feed'
+  label: 'IMTAC Twitter'
   provider: block_content
   label_display: visible
   status: true
