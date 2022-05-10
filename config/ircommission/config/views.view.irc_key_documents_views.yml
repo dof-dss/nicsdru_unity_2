@@ -166,6 +166,14 @@ display:
           entity_type: node
           entity_field: type
           plugin_id: bundle
+        field_publication_type_target_id:
+          id: field_publication_type_target_id
+          table: node__field_publication_type
+          field: field_publication_type_target_id
+          plugin_id: taxonomy_index_tid
+          expose:
+            operator_limit_selection: false
+            operator_list: {  }
       sorts:
         created:
           id: created
