@@ -21,7 +21,7 @@ $rhythm-unit: 'rem';
 $rem-with-px-fallback: false;
 
 // Round the line height to the nearest half line height instead of the nearest integral line height.
-$round-to-nearest-half-line: true;
+$round-to-nearest-half-line: false;
 
 
 /* Breakpoints ======================================================== */
@@ -46,4 +46,4 @@ $indent-amount: 1.8rem;
 // Set the grid sizes with a default value that can be overwritten on a per theme basis.
 $max-grid-width: 1024px !default;
 
-$main-menu-border: false;
+$main-menu-border: true;
