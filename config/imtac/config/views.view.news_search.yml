@@ -73,7 +73,7 @@ display:
         options:
           view_modes:
             'entity:node':
-              news: search_result
+              news: teaser
       fields:
         body:
           table: search_api_index_news

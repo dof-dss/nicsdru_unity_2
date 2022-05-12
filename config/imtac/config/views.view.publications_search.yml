@@ -78,7 +78,7 @@ display:
         options:
           view_modes:
             'entity:node':
-              publication_page: default
+              publication_page: teaser
       fields:
         title:
           id: title
