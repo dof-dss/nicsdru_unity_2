@@ -7,7 +7,7 @@ name: imtac
 label: IMTAC
 weight: 0
 group: ''
-skin: fullwidth
+skin: default
 breakpoints: 1
 optimized: false
 options:
@@ -41,7 +41,7 @@ options:
     lazyLoad: ondemand
     mouseWheel: false
     randomize: false
-    respondTo: slider
+    respondTo: window
     rtl: false
     rows: 1
     slidesPerRow: 1
@@ -49,10 +49,10 @@ options:
     slidesToShow: 1
     slidesToScroll: 1
     speed: 500
-    swipe: true
+    swipe: false
     swipeToSlide: false
     edgeFriction: 0.35
-    touchMove: true
+    touchMove: false
     touchThreshold: 5
     useCSS: true
     cssEase: ease

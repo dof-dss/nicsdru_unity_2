@@ -12,7 +12,7 @@ dependencies:
 id: imtactwitterfeed
 theme: imtac_theme
 region: bottom_widget_3
-weight: 0
+weight: -9
 provider: null
 plugin: 'block_content:a0cbee02-5890-4625-9769-775a1d200ec0'
 settings:

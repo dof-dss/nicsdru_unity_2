@@ -251,7 +251,7 @@
 #main-menu .menu .menu-item .active,
 #main-menu .menu .menu-item .active + .menu-main_sub .title a {
   background: rgba(191, 191, 191, 0.25);
-  border-bottom-color: #cad400;
+  border-bottom-color: #f2b855;
 }
 
 /* line 226, node_modules/nicsdru_unity_theme/src/scss/3_components/navigation/_main-nav.scss */

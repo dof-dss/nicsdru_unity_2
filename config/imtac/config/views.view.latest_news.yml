@@ -57,12 +57,14 @@ display:
           items_per_page: 4
           offset: 0
       style:
-        type: default
+        type: html_list
         options:
-          grouping: {  }
-          row_class: ''
-          default_row_class: true
+          row_class: item
+          default_row_class: false
           uses_fields: false
+          type: ul
+          wrapper_class: item-list
+          class: ''
       row:
         type: 'entity:node'
         options:

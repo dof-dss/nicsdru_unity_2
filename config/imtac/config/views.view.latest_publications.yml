@@ -54,14 +54,17 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 3
+          items_per_page: 4
           offset: 0
       style:
-        type: default
+        type: html_list
         options:
-          row_class: ''
-          default_row_class: true
+          row_class: item
+          default_row_class: false
           uses_fields: false
+          type: ul
+          wrapper_class: item-list
+          class: ''
       row:
         type: 'entity:node'
         options:
@@ -258,9 +261,9 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_published_date'
-  home_latest_publications:
+  publications_latest:
     display_plugin: block
-    id: home_latest_publications
+    id: publications_latest
     display_title: Block
     position: 1
     display_options:
