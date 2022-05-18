@@ -7,7 +7,7 @@ name: imtac
 label: IMTAC
 weight: 0
 group: ''
-skin: default
+skin: classic
 breakpoints: 1
 optimized: false
 options:
