@@ -80,20 +80,11 @@
 </div>
 
 {% if is_front %}
-
+  {{ page.slideshow }}
   {{ page.front_welcome }}
 
-  {% if drupal_config('system.site', 'frontpage_title') %}
-    <div class="{{ drupal_config('system.site', 'frontpage_show_title') ? '' : 'visually-hidden' }}">
-      <h1>
-        {{ drupal_config('system.site', 'frontpage_title') }}
-      </h1>
-    </div>
-
-  {% endif %}
-
   {% if page.top_first or page.top_second or page.top_third %}
-    <div id="top-area">
+    <div id="top-area" class="clearfix">
       {% if page.top_first %}
         <div class="column">
           {{ page.top_first }}
@@ -114,13 +105,31 @@
 {% endif %}
 
 <div id="container">
+  {% if is_front %}
+    <div class="front-banner">
+      <img src="sites/fiscalcommissionni/themes/fiscalcommissionni_theme/images/banner-image.jpg" alt="">
+    </div>
+  {% endif %}
+
   <div class="container-wrap">
     <div class="content-sidebar-wrap {% if search_page %}search-page{% endif %}">
+      {% if is_front %}
+        {% if drupal_config('system.site', 'frontpage_title') %}
+          <div class="{{ drupal_config('system.site', 'frontpage_show_title') ? '' : 'visually-hidden' }}">
+            <h1>
+              {{ drupal_config('system.site', 'frontpage_title') }}
+            </h1>
+          </div>
 
+        {% endif %}
+      {% endif %}
       {{ page.breadcrumb }}
-
       {% if search_page %}
         {{ drupal_block('page_title_block', wrapper=false) }}
+      {% endif %}
+
+      {% if evidence_search %}
+        {{ drupal_entity('block_content', 4) }}
       {% endif %}
 
       <div id="content" {{ page.search_facets ? '' : 'class="main-content"' }}>
@@ -154,7 +163,7 @@
     {% if is_front %}
       {% if page.bottom_widget_1 or page.bottom_widget_2 or page.bottom_widget_3 %}
         <div id="bottom_wrapper" class="footer_block bottom_widget">
-          <div id="bottom-area" class="footer-area">
+          <div id="bottom-area" class="footer-area clearfix">
             {% if page.bottom_widget_1 %}
               <div class="column">
                 {{ page.bottom_widget_1 }}
