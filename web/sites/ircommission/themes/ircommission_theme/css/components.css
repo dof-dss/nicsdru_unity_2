@@ -2050,8 +2050,13 @@ ul.info-notice {
 }
 
 /* line 8, src/scss/components.scss */
-p {
-  color: red;
+.content p {
+  color: #333;
+}
+
+/* line 13, src/scss/components.scss */
+a.btn {
+  background: #0a7ad0;
 }
 
 /*# sourceMappingURL=components.css.map */

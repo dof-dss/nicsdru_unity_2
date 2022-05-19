@@ -751,4 +751,17 @@ aside #user-login-form .form-actions {
   }
 }
 
+/* line 12, src/scss/layout.scss */
+.front .front-banner {
+  max-width: 1023px;
+  margin: 0 auto 2rem;
+}
+
+@media (min-width: 766px) {
+  /* line 12, src/scss/layout.scss */
+  .front .front-banner {
+    margin: 0 auto 4rem;
+  }
+}
+
 /*# sourceMappingURL=layout.css.map */
