@@ -751,17 +751,58 @@ aside #user-login-form .form-actions {
   }
 }
 
-/* line 12, src/scss/layout.scss */
+/* line 11, src/scss/layout.scss */
 .front .front-banner {
   max-width: 1023px;
   margin: 0 auto 2rem;
 }
 
 @media (min-width: 766px) {
-  /* line 12, src/scss/layout.scss */
+  /* line 11, src/scss/layout.scss */
   .front .front-banner {
     margin: 0 auto 4rem;
   }
+}
+
+/* line 24, src/scss/layout.scss */
+.content span {
+  color: #0a7ad0;
+}
+
+/* line 29, src/scss/layout.scss */
+.content .page-content {
+  color: #0a7ad0;
+}
+
+/* line 34, src/scss/layout.scss */
+#block-views-block-irc-key-documents-views-block-1-2 a {
+  color: #0a7ad0;
+}
+
+/* line 39, src/scss/layout.scss */
+#block-views-block-irc-key-documents-views-block-1-2 a.btn {
+  color: #fff;
+  background: #0a7ad0;
+}
+
+/* line 45, src/scss/layout.scss */
+#block-mainpagecontent a {
+  color: #0a7ad0;
+}
+
+/* line 50, src/scss/layout.scss */
+.page-title span {
+  color: #141f71;
+}
+
+/* line 55, src/scss/layout.scss */
+.menu.menu-main {
+  background-color: #333;
+}
+
+/* line 60, src/scss/layout.scss */
+#edit-submit-search {
+  color: #333;
 }
 
 /*# sourceMappingURL=layout.css.map */

@@ -13,3 +13,99 @@
 a.btn {
   background: #0a7ad0;
 }
+
+
+
+
+#main-menu span.activelink, #main-menu li.active-trail a {
+  background: #0a7ad0;
+  color: #fff;
+}
+
+#main-menu .menu .menu-item .active,
+#main-menu .menu .menu-item .active + .menu-main_sub .title a {
+  background: rgba(191, 191, 191, 0.25);
+  border-bottom-color: #0a7ad0;
+}
+
+#main-menu .menu .menu-item .active,
+#main-menu .menu .menu-item .active + .menu-main_sub .title a {
+  background: #0a7ad0;
+  color: #fff;
+}
+
+
+#footer {
+  background: inherit;
+  border-top: 0;
+  max-width: 100%;
+  padding: 0;
+  overflow: auto;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 0 auto;
+}
+
+#footer_wrapper {
+
+  background-color: #e4e4e4;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 3rem 1.8rem 1.8rem;
+
+}
+
+
+.footer_credit{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+
+}
+
+
+.region.region-footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#block-menu-menu-footer-links {
+  outline: none;
+  position: relative;
+
+}
+
+#footer-menu li {
+  display: inline-block;
+  margin: 0 16px 0 0;
+  padding: 0;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+
+
+a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not(.btn):not(.ui-menu-item-wrapper):not(.thwooper) {
+  color: #0a7ad0;
+  text-decoration: none;
+}
+
+
+
+//not working to continue
+
+.fa.fausers {
+  color: #141f71;
+  font-size: 10rem;
+  line-height: 1;
+  margin: 2rem 0;
+
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: baseline;
+}

@@ -2059,4 +2059,94 @@ a.btn {
   background: #0a7ad0;
 }
 
+/* line 20, src/scss/components.scss */
+#main-menu span.activelink, #main-menu li.active-trail a {
+  background: #0a7ad0;
+  color: #fff;
+}
+
+/* line 25, src/scss/components.scss */
+#main-menu .menu .menu-item .active,
+#main-menu .menu .menu-item .active + .menu-main_sub .title a {
+  background: rgba(191, 191, 191, 0.25);
+  border-bottom-color: #0a7ad0;
+}
+
+/* line 31, src/scss/components.scss */
+#main-menu .menu .menu-item .active,
+#main-menu .menu .menu-item .active + .menu-main_sub .title a {
+  background: #0a7ad0;
+  color: #fff;
+}
+
+/* line 38, src/scss/components.scss */
+#footer {
+  background: inherit;
+  border-top: 0;
+  max-width: 100%;
+  padding: 0;
+  overflow: auto;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 0 auto;
+}
+
+/* line 49, src/scss/components.scss */
+#footer_wrapper {
+  background-color: #e4e4e4;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 3rem 1.8rem 1.8rem;
+}
+
+/* line 59, src/scss/components.scss */
+.footer_credit {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+/* line 68, src/scss/components.scss */
+.region.region-footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* line 74, src/scss/components.scss */
+#block-menu-menu-footer-links {
+  outline: none;
+  position: relative;
+}
+
+/* line 80, src/scss/components.scss */
+#footer-menu li {
+  display: inline-block;
+  margin: 0 16px 0 0;
+  padding: 0;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+/* line 90, src/scss/components.scss */
+a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not(.btn):not(.ui-menu-item-wrapper):not(.thwooper) {
+  color: #0a7ad0;
+  text-decoration: none;
+}
+
+/* line 99, src/scss/components.scss */
+.fa.fausers {
+  color: #141f71;
+  font-size: 10rem;
+  line-height: 1;
+  margin: 2rem 0;
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: baseline;
+}
+
 /*# sourceMappingURL=components.css.map */
