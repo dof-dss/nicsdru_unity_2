@@ -94,18 +94,25 @@ a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not
 
 
 
-//not working to continue
 
-.fa.fausers {
+.content .fa {
   color: #141f71;
   font-size: 10rem;
   line-height: 1;
   margin: 2rem 0;
+  margin-left: 90px;
+}
 
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  -moz-osx-font-smoothing: grayscale;
-  vertical-align: baseline;
+.content p{
+  text-align: center;
+}
+
+#block-ircommission-theme-aboutircblock h2 {
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+.btnwrap{
+  margin-left: 85px;
+  margin-top: 90px;
 }

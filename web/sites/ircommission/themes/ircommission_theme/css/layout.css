@@ -771,36 +771,36 @@ aside #user-login-form .form-actions {
 
 /* line 29, src/scss/layout.scss */
 .content .page-content {
-  color: #0a7ad0;
+  color: #333;
 }
 
-/* line 34, src/scss/layout.scss */
+/* line 35, src/scss/layout.scss */
 #block-views-block-irc-key-documents-views-block-1-2 a {
   color: #0a7ad0;
 }
 
-/* line 39, src/scss/layout.scss */
+/* line 40, src/scss/layout.scss */
 #block-views-block-irc-key-documents-views-block-1-2 a.btn {
   color: #fff;
   background: #0a7ad0;
 }
 
-/* line 45, src/scss/layout.scss */
+/* line 46, src/scss/layout.scss */
 #block-mainpagecontent a {
   color: #0a7ad0;
 }
 
-/* line 50, src/scss/layout.scss */
+/* line 51, src/scss/layout.scss */
 .page-title span {
   color: #141f71;
 }
 
-/* line 55, src/scss/layout.scss */
+/* line 56, src/scss/layout.scss */
 .menu.menu-main {
   background-color: #333;
 }
 
-/* line 60, src/scss/layout.scss */
+/* line 61, src/scss/layout.scss */
 #edit-submit-search {
   color: #333;
 }
