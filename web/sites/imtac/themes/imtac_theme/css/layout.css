@@ -278,7 +278,14 @@
   overflow: hidden;
 }
 
-/* line 26, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+@media screen and (max-width: 961px) {
+  /* line 21, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  #container {
+    padding: 0 1rem;
+  }
+}
+
+/* line 30, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 .container-wrap {
   max-width: 1024px;
   margin: 0 auto 1rem;
@@ -286,13 +293,13 @@
   overflow: hidden;
 }
 
-/* line 33, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 37, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 .container {
   padding: 0 15px;
 }
 
 @media (min-width: 766px) {
-  /* line 33, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 37, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .container {
     margin: 0 auto;
     max-width: 1024px;
@@ -300,14 +307,14 @@
   }
 }
 
-/* line 42, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 46, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 .content-sidebar-wrap {
   float: left;
   width: 100%;
 }
 
 @media screen and (max-width: 961px) {
-  /* line 42, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 46, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .content-sidebar-wrap {
     float: none;
     width: 100% !important;
@@ -315,13 +322,13 @@
 }
 
 @media screen and (max-width: 766px) {
-  /* line 42, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 46, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .content-sidebar-wrap {
     width: auto;
   }
 }
 
-/* line 55, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 59, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 .content-sidebar-wrap .main-content {
   display: inline;
   margin-bottom: 1rem;
@@ -330,7 +337,7 @@
 }
 
 @media screen and (max-width: 961px) {
-  /* line 55, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 59, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .content-sidebar-wrap .main-content {
     margin: 0;
     float: none;
@@ -338,7 +345,7 @@
 }
 
 @media screen and (max-width: 766px) {
-  /* line 55, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 59, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .content-sidebar-wrap .main-content {
     float: left;
     width: auto;
@@ -346,20 +353,20 @@
 }
 
 @media screen and (max-width: 766px) {
-  /* line 72, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 76, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .front .content-sidebar-wrap {
     margin: 0;
   }
 }
 
-/* line 79, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 83, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 .sidebar-first-layout {
   color: #111;
   float: left;
 }
 
 @media screen and (max-width: 961px) {
-  /* line 79, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 83, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .sidebar-first-layout {
     clear: both;
     float: none;
@@ -369,7 +376,7 @@
 }
 
 @media screen and (max-width: 766px) {
-  /* line 79, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 83, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .sidebar-first-layout {
     width: auto;
     clear: both;
@@ -377,7 +384,7 @@
 }
 
 @media screen and (max-width: 766px) {
-  /* line 95, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 99, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .sidebar-first-layout .block {
     float: none !important;
     width: auto !important;
@@ -385,14 +392,14 @@
   }
 }
 
-/* line 104, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 108, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 .sidebar-second-layout {
   color: #111;
   float: right;
 }
 
 @media screen and (max-width: 961px) {
-  /* line 104, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 108, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .sidebar-second-layout {
     float: none;
     width: 100% !important;
@@ -401,14 +408,14 @@
 }
 
 @media screen and (max-width: 766px) {
-  /* line 104, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 108, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .sidebar-second-layout {
     width: auto;
   }
 }
 
 @media screen and (max-width: 766px) {
-  /* line 118, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 122, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .sidebar-second-layout .block {
     float: none !important;
     width: auto !important;
@@ -416,17 +423,17 @@
   }
 }
 
-/* line 128, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 132, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 aside .block .content {
   padding: 0 1rem;
 }
 
-/* line 133, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 137, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 aside #user-login-form input.form-text {
   width: 90%;
 }
 
-/* line 137, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 141, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 aside #user-login-form .form-actions {
   padding-top: 0;
 }
@@ -484,7 +491,7 @@ aside #user-login-form .form-actions {
   width: 22%;
 }
 
-/* line 164, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+/* line 168, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
 #head,
 .main-content,
 .sidebar-second-layout,
@@ -493,7 +500,7 @@ aside #user-login-form .form-actions {
 }
 
 @media screen and (max-width: 961px) {
-  /* line 171, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
+  /* line 175, node_modules/nicsdru_unity_theme/src/scss/2_layout/_container.scss */
   .main-content {
     float: none;
     width: 100% !important;

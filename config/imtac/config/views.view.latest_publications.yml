@@ -242,12 +242,25 @@ display:
           plugin_id: datetime
       title: Publications
       header: {  }
-      footer: {  }
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<div class="btnwrap"><a class="btn" href="/publications">More Publications</a></div>'
+            format: basic_html
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      use_more: true
+      use_more: false
       use_more_always: true
       use_more_text: 'More Publications'
       link_url: /publications

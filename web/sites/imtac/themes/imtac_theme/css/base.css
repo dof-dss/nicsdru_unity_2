@@ -565,7 +565,7 @@ select.form-select {
 }
 
 /* line 109, node_modules/nicsdru_unity_theme/src/scss/1_base/_forms.scss */
-button:not(.toolbar-icon):not(.ui-button):not(.trigger):not(.slick-arrow):not([id^=slick-slide-control]):not([id^=accordion]),
+button:not(.toolbar-icon):not(.ui-button):not(.trigger):not(.slick-arrow):not([id^=slick-slide-control]):not([id^=accordion]):not(.hamburger),
 input[type='submit'],
 input[type='reset'],
 input[type='button'] {
@@ -584,7 +584,7 @@ input[type='button'] {
 }
 
 /* line 124, node_modules/nicsdru_unity_theme/src/scss/1_base/_forms.scss */
-button:not(.toolbar-icon):not(.ui-button):not(.trigger):not(.slick-arrow):not([id^=slick-slide-control]):not([id^=accordion]):hover,
+button:not(.toolbar-icon):not(.ui-button):not(.trigger):not(.slick-arrow):not([id^=slick-slide-control]):not([id^=accordion]):not(.hamburger):hover,
 input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover {
@@ -636,7 +636,13 @@ th {
   text-align: left;
 }
 
-/* line 40, node_modules/nicsdru_unity_theme/src/scss/1_base/_tables.scss */
+/* line 39, node_modules/nicsdru_unity_theme/src/scss/1_base/_tables.scss */
+th p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* line 45, node_modules/nicsdru_unity_theme/src/scss/1_base/_tables.scss */
 td {
   background: #fff;
   color: #111;
