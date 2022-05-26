@@ -2263,4 +2263,9 @@ a[href="/news"] {
   margin: auto;
 }
 
+/* line 220, src/scss/components.scss */
+.front-banner img {
+  vertical-align: top;
+}
+
 /*# sourceMappingURL=components.css.map */
