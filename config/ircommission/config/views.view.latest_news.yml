@@ -54,7 +54,7 @@ display:
       pager:
         type: some
         options:
-          items_per_page: 3
+          items_per_page: 2
           offset: 0
       style:
         type: default
@@ -293,11 +293,13 @@ display:
       defaults:
         style: false
         row: false
+        header: false
       row:
         type: 'entity:node'
         options:
           relationship: none
           view_mode: teaser
+      header: {  }
     cache_metadata:
       max-age: -1
       contexts:
@@ -316,6 +318,37 @@ display:
       display_extenders:
         metatag_display_extender: {  }
       display_description: ''
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<div class="btnwrap"><a class="btn" href="/news">More news</a></div>'
+            format: basic_html
+          plugin_id: text
+      defaults:
+        footer: false
+        header: false
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<div class="fa fa-file-text-o"> </div>'
+            format: full_html
+          plugin_id: text
     cache_metadata:
       max-age: -1
       contexts:

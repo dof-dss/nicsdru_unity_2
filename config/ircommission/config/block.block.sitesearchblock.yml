@@ -1,25 +1,30 @@
-uuid: 2377d03a-e48c-4adf-b918-810cdda99196
+uuid: 5ade8c46-2fbd-43f0-84e9-7f42d8ae5990
 langcode: en
 status: true
 dependencies:
   module:
     - block_visibility_groups
     - system
+    - unity_search_pages
   theme:
     - ircommission_theme
-id: breadcrumbs
+id: sitesearchblock
 theme: ircommission_theme
-region: breadcrumb
+region: search
 weight: 0
 provider: null
-plugin: system_breadcrumb_block
+plugin: site_search_block
 settings:
-  id: system_breadcrumb_block
-  label: Breadcrumbs
-  provider: system
+  id: site_search_block
+  label: 'Site search block'
+  provider: unity_search_pages
   label_display: '0'
 visibility:
   condition_group:
     id: condition_group
     negate: false
     block_visibility_group: ''
+  request_path:
+    id: request_path
+    pages: /search
+    negate: true
