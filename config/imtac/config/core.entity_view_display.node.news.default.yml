@@ -24,38 +24,38 @@ bundle: news
 mode: default
 content:
   body:
-    label: hidden
-    weight: 3
     type: text_default
+    label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 3
     region: content
   field_photo:
-    label: hidden
-    weight: 2
     type: html_list_formatter
+    label: hidden
     settings:
       list_type: ul
       list_classes: ''
       display_item_link: false
     third_party_settings: {  }
+    weight: 2
     region: content
   field_published_date:
-    label: hidden
-    weight: 1
     type: datetime_default
+    label: hidden
     settings:
       timezone_override: ''
       format_type: medium
     third_party_settings: {  }
+    weight: 1
     region: content
   field_teaser:
-    label: hidden
-    weight: 0
     type: string
+    label: hidden
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    weight: 0
     region: content
 hidden:
   content_moderation_control: true

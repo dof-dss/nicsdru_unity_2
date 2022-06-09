@@ -25,15 +25,15 @@ bundle: news
 mode: default
 content:
   body:
-    weight: 2
     type: text_textarea_with_summary
+    weight: 2
+    region: content
     settings:
       rows: 9
       summary_rows: 3
       placeholder: ''
       show_summary: false
     third_party_settings: {  }
-    region: content
   created:
     type: datetime_timestamp
     weight: 5
@@ -48,31 +48,31 @@ content:
       sidebar: true
     third_party_settings: {  }
   field_photo:
-    weight: 8
     type: media_library_widget
+    weight: 8
+    region: content
     settings:
       media_types: {  }
     third_party_settings: {  }
-    region: content
   field_published_date:
-    weight: 1
     type: datetime_default
+    weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   field_teaser:
-    weight: 7
     type: string_textfield
+    weight: 7
+    region: content
     settings:
       size: 120
       placeholder: ''
     third_party_settings: {  }
-    region: content
   flag:
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   langcode:
     type: language_select
     weight: 3
@@ -88,17 +88,17 @@ content:
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 6
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    settings:
-      display_label: true
     weight: 9
     region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -111,12 +111,12 @@ content:
   uid:
     type: entity_reference_autocomplete
     weight: 4
+    region: content
     settings:
       match_operator: CONTAINS
+      match_limit: 10
       size: 60
       placeholder: ''
-      match_limit: 10
-    region: content
     third_party_settings: {  }
   url_redirects:
     weight: 11

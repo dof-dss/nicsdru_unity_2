@@ -2,34 +2,31 @@ uuid: 7ca6b344-4ba4-41b3-a008-052d858a98cb
 langcode: en
 status: true
 dependencies:
+  config:
+    - field.storage.node.body
+    - field.storage.node.field_published_date
+    - field.storage.node.field_summary
+    - field.storage.node.field_teaser
+    - search_api.server.solr_default
   module:
     - search_api_solr
     - node
     - search_api
-  config:
-    - field.storage.node.body
-    - field.storage.node.field_summary
-    - field.storage.node.field_published_date
-    - field.storage.node.field_teaser
-    - search_api.server.solr_default
 third_party_settings:
   search_api_solr:
     finalize: false
     commit_before_finalize: false
     commit_after_finalize: false
-    multilingual:
-      limit_to_content_language: false
-      include_language_independent: true
     highlighter:
       maxAnalyzedChars: 51200
       fragmenter: gap
+      usePhraseHighlighter: true
+      highlightMultiTerm: true
+      preserveMulti: false
       regex:
         slop: 0.5
         pattern: blank
         maxAnalyzedChars: 10000
-      usePhraseHighlighter: true
-      highlightMultiTerm: true
-      preserveMulti: false
       highlight:
         mergeContiguous: false
         requireFieldMatch: false
@@ -53,6 +50,9 @@ third_party_settings:
       index_prefix: ''
       collection: ''
       timezone: ''
+    multilingual:
+      limit_to_content_language: false
+      include_language_independent: true
 id: default_content
 name: 'Default Content'
 description: ''
@@ -164,6 +164,7 @@ datasource_settings:
 processor_settings:
   add_url: {  }
   aggregated_field: {  }
+  entity_type: {  }
   language_with_fallback: {  }
   rendered_item: {  }
   solr_date_range: {  }
@@ -171,6 +172,7 @@ tracker_settings:
   default:
     indexing_order: fifo
 options:
-  index_directly: true
   cron_limit: 50
+  index_directly: true
+  track_changes_in_references: true
 server: solr_default

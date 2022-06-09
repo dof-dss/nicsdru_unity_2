@@ -9,12 +9,12 @@ dependencies:
     - search_api
 id: news_summary
 name: 'News Summary'
+facet_source_id: 'search_api:views_page__news_search__news_search_page'
+processor_configs: {  }
 facets:
   published_date:
     checked: true
     label: 'Published date'
     separator: ', '
-    weight: 0
     show_count: false
-facet_source_id: 'search_api:views_page__news_search__news_search_page'
-processor_configs: {  }
+    weight: 0

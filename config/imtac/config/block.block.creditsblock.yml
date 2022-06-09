@@ -17,8 +17,8 @@ plugin: 'block_content:4ab92eee-abf8-4f2a-a9cd-de61a3235ada'
 settings:
   id: 'block_content:4ab92eee-abf8-4f2a-a9cd-de61a3235ada'
   label: 'Credits block'
-  provider: block_content
   label_display: '0'
+  provider: block_content
   status: true
   info: ''
   view_mode: full
