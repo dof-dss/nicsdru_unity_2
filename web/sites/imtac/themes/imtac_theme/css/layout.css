@@ -751,50 +751,57 @@ aside #user-login-form .form-actions {
   }
 }
 
-/* line 10, src/scss/layout.scss */
+@media screen and (max-width: 961px) {
+  /* line 8, src/scss/layout.scss */
+  .container-wrap {
+    margin: 0 1rem;
+  }
+}
+
+/* line 14, src/scss/layout.scss */
 img {
   height: 80px;
 }
 
-/* line 16, src/scss/layout.scss */
+/* line 20, src/scss/layout.scss */
 .path-news .content-sidebar-wrap,
 .path-publications .content-sidebar-wrap {
   width: 100%;
 }
 
-/* line 21, src/scss/layout.scss */
+/* line 25, src/scss/layout.scss */
 .path-news .search-page .sidebar-first-layout,
 .path-publications .search-page .sidebar-first-layout {
   padding-left: 0;
 }
 
 @media (min-width: 961px) {
-  /* line 26, src/scss/layout.scss */
+  /* line 30, src/scss/layout.scss */
   .path-news .search-page .sidebar-first-layout,
   .path-publications .search-page .sidebar-first-layout {
     width: 30%;
   }
-  /* line 30, src/scss/layout.scss */
+  /* line 34, src/scss/layout.scss */
   .path-news .search-page .main-content,
   .path-publications .search-page .main-content {
     width: 65%;
   }
 }
 
-/* line 36, src/scss/layout.scss */
+/* line 40, src/scss/layout.scss */
 .path-news .search-page .views-exposed-form p,
 .path-publications .search-page .views-exposed-form p {
   margin-bottom: 2px;
 }
 
-/* line 42, src/scss/layout.scss */
+/* line 46, src/scss/layout.scss */
 #bottom-area {
   text-align: left;
   margin: 2rem auto;
 }
 
 @media (min-width: 766px) {
-  /* line 42, src/scss/layout.scss */
+  /* line 46, src/scss/layout.scss */
   #bottom-area {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -802,27 +809,27 @@ img {
   }
 }
 
-/* line 50, src/scss/layout.scss */
+/* line 54, src/scss/layout.scss */
 #bottom-area .column {
   background: #f6f6f6;
   padding: 2rem;
 }
 
 @media (min-width: 961px) {
-  /* line 50, src/scss/layout.scss */
+  /* line 54, src/scss/layout.scss */
   #bottom-area .column {
     width: 32.6%;
   }
 }
 
-/* line 58, src/scss/layout.scss */
+/* line 62, src/scss/layout.scss */
 #bottom-area .column .item {
   list-style: none;
   padding: 1rem 0 .5rem 0;
   border-bottom: 1px solid #555;
 }
 
-/* line 63, src/scss/layout.scss */
+/* line 67, src/scss/layout.scss */
 #bottom-area .column .item:last-child {
   border-bottom: none;
 }
