@@ -1599,8 +1599,8 @@ select.error:focus {
 
 /* Error Tool Tip Styles*/
 /* line 2, node_modules/nicsdru_unity_theme/src/scss/3_components/form/_webform.scss */
-.checkboxes--wrapper.required input + strong,
-.required + strong {
+.checkboxes--wrapper.required input + p,
+.required + p {
   position: relative;
   top: 100%;
   left: -1px;
@@ -1613,8 +1613,8 @@ select.error:focus {
 }
 
 /* line 12, node_modules/nicsdru_unity_theme/src/scss/3_components/form/_webform.scss */
-.checkboxes--wrapper.required input + strong.error,
-.required + strong.error {
+.checkboxes--wrapper.required input + p.error,
+.required + p.error {
   font-size: 1.6rem;
   margin: 0 0 2.4rem;
   font-weight: bold;
@@ -1633,8 +1633,8 @@ select.error:focus {
 }
 
 /* line 27, node_modules/nicsdru_unity_theme/src/scss/3_components/form/_webform.scss */
-.checkboxes--wrapper.required input + strong.error::after,
-.required + strong.error::after {
+.checkboxes--wrapper.required input + p.error::after,
+.required + p.error::after {
   content: '';
   border: .9rem solid transparent;
   border-bottom-color: #d1431f;
@@ -1644,7 +1644,7 @@ select.error:focus {
 }
 
 /* line 38, node_modules/nicsdru_unity_theme/src/scss/3_components/form/_webform.scss */
-.checkboxes--wrapper.required input + strong.error {
+.checkboxes--wrapper.required input + p.error {
   margin-left: 1rem;
 }
 
@@ -1654,7 +1654,7 @@ select.error:focus {
 }
 
 /* line 45, node_modules/nicsdru_unity_theme/src/scss/3_components/form/_webform.scss */
-.search-form .required + strong.error {
+.search-form .required + p.error {
   position: absolute;
   margin-top: 0;
 }
@@ -1698,28 +1698,6 @@ select.error:focus {
   -webkit-font-smoothing: antialiased;
   font-weight: 900;
   padding-left: 2rem;
-}
-
-/*
- * @file
- * Provides reset form styles for forms in layout builder.
- */
-/* line 11, node_modules/nicsdru_unity_theme/src/scss/3_components/form/_layout-builder-form.scss */
-.layout-builder-form label,
-.layout-builder-update-block label,
-.layout-builder-configure-block label,
-.media-library-wrapper form label,
-.js-media-library-add-form label {
-  display: inline-block;
-}
-
-/* line 14, node_modules/nicsdru_unity_theme/src/scss/3_components/form/_layout-builder-form.scss */
-.layout-builder-form input:not(input[type='radio']),
-.layout-builder-update-block input:not(input[type='radio']),
-.layout-builder-configure-block input:not(input[type='radio']),
-.media-library-wrapper form input:not(input[type='radio']),
-.js-media-library-add-form input:not(input[type='radio']) {
-  -webkit-appearance: auto;
 }
 
 /* line 1, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_lists.scss */
@@ -1935,19 +1913,19 @@ a.btn:focus {
 /* line 95, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
 .info-notice {
   border-color: #002e62;
-  background: #fff url('../images/i.svg?17f73a1b1b8') no-repeat 0.9rem 0.9rem/24px 24px;
+  background: #fff url('../images/i.svg?18105f729ce') no-repeat 0.9rem 0.9rem/24px 24px;
 }
 
 @media (min-width: 641px) {
   /* line 95, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
   .info-notice {
-    background: #fff url('../images/i.svg?17f73a1b1b8') no-repeat 1.4rem 1.4rem/30px 30px;
+    background: #fff url('../images/i.svg?18105f729ce') no-repeat 1.4rem 1.4rem/30px 30px;
   }
 }
 
 /* line 104, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
 .no-svg .info-notice {
-  background-image: url('../images/i.png?17f73a1b1b8');
+  background-image: url('../images/i.png?18105f729ce');
 }
 
 /* line 109, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
@@ -1977,55 +1955,55 @@ ul.info-notice {
 /* line 135, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
 .messages--error {
   border-color: #e34f4f;
-  background: #fff url('../images/wrong.svg?17f73a1b1b8') no-repeat 0.9rem 0.9rem/24px 24px;
+  background: #fff url('../images/wrong.svg?18105f729d2') no-repeat 0.9rem 0.9rem/24px 24px;
 }
 
 @media (min-width: 641px) {
   /* line 135, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
   .messages--error {
-    background: #fff url('../images/wrong.svg?17f73a1b1b8') no-repeat 1.4rem 1.4rem/30px 30px;
+    background: #fff url('../images/wrong.svg?18105f729d2') no-repeat 1.4rem 1.4rem/30px 30px;
   }
 }
 
 /* line 143, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
 .no-svg .messages--error {
-  background-image: url('../images/wrong.png?17f73a1b1b8');
+  background-image: url('../images/wrong.png?18105f729d1');
 }
 
 /* line 148, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
 .messages--status {
   border-color: #3fa940;
-  background: #fff url('../images/status.svg?17f73a1b1b8') no-repeat 0.9rem 0.9rem/24px 24px;
+  background: #fff url('../images/status.svg?18105f729d1') no-repeat 0.9rem 0.9rem/24px 24px;
 }
 
 @media (min-width: 641px) {
   /* line 148, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
   .messages--status {
-    background: #fff url('../images/status.svg?17f73a1b1b8') no-repeat 1.4rem 1.4rem/30px 30px;
+    background: #fff url('../images/status.svg?18105f729d1') no-repeat 1.4rem 1.4rem/30px 30px;
   }
 }
 
 /* line 156, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
 .no-svg .messages--status {
-  background-image: url('../images/status.png?17f73a1b1b8');
+  background-image: url('../images/status.png?18105f729d1');
 }
 
 /* line 161, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
 .messages--warning {
   border-color: #db6304;
-  background: #fff url('../images/warning.svg?17f73a1b1b8') no-repeat 0.9rem 0.9rem/24px 24px;
+  background: #fff url('../images/warning.svg?18105f729d1') no-repeat 0.9rem 0.9rem/24px 24px;
 }
 
 @media (min-width: 641px) {
   /* line 161, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
   .messages--warning {
-    background: #fff url('../images/warning.svg?17f73a1b1b8') no-repeat 1.4rem 1.4rem/30px 30px;
+    background: #fff url('../images/warning.svg?18105f729d1') no-repeat 1.4rem 1.4rem/30px 30px;
   }
 }
 
 /* line 169, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
 .no-svg .messages--warning {
-  background-image: url('../images/warning.png?17f73a1b1b8');
+  background-image: url('../images/warning.png?18105f729d1');
 }
 
 /* line 174, node_modules/nicsdru_unity_theme/src/scss/3_components/content/_icons-messages.scss */
@@ -2266,6 +2244,26 @@ a[href="/news"] {
 /* line 220, src/scss/components.scss */
 .front-banner img {
   vertical-align: top;
+}
+
+/* line 225, src/scss/components.scss */
+#bottom_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 229, src/scss/components.scss */
+.region.region-content {
+  margin-left: 50px;
+}
+
+/* line 233, src/scss/components.scss */
+#content a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not(.btn):not(.ui-menu-item-wrapper):not(.thwooper):not(.value):not(.card__title-link):not(.card):not(.layout-builder__link), .content a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not(.btn):not(.ui-menu-item-wrapper):not(.thwooper):not(.value):not(.card__title-link):not(.card):not(.layout-builder__link), #footer a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not(.btn):not(.ui-menu-item-wrapper):not(.thwooper):not(.value):not(.card__title-link):not(.card):not(.layout-builder__link) {
+  border-bottom: 0px solid #16a085;
+  margin: 0 -1px;
+  padding: 0 1px;
+  color: #0a7ad0;
 }
 
 /*# sourceMappingURL=components.css.map */

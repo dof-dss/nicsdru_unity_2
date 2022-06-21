@@ -1,4 +1,4 @@
-uuid: e3bc528a-166a-430f-a40f-27b4f202182c
+uuid: d6311656-c0d3-448c-8966-c3843bd84233
 langcode: en
 status: true
 dependencies:
@@ -18,13 +18,17 @@ plugin: 'system_menu_block:main'
 settings:
   id: 'system_menu_block:main'
   label: 'In this section'
-  provider: system
   label_display: visible
+  provider: system
   level: 1
-  depth: 2
+  depth: 0
   expand_all_items: false
 visibility:
   condition_group:
     id: condition_group
     negate: false
     block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/about-irc\r\n/commissioners"

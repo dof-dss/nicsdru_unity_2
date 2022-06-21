@@ -13,14 +13,14 @@ dependencies:
 id: views_block__irc_key_documents_views_block_1_2
 theme: ircommission_theme
 region: bottom_widget_3
-weight: 0
+weight: -10
 provider: null
 plugin: 'views_block:irc_key_documents_views-block_1'
 settings:
   id: 'views_block:irc_key_documents_views-block_1'
   label: ''
-  provider: views
   label_display: visible
+  provider: views
   views_label: ''
   items_per_page: none
 visibility:
@@ -30,5 +30,5 @@ visibility:
     block_visibility_group: ''
   request_path:
     id: request_path
-    pages: '<front>'
     negate: false
+    pages: '<front>'

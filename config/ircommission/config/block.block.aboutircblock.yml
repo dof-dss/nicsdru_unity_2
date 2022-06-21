@@ -17,8 +17,8 @@ plugin: 'block_content:d9ff9dd7-616f-4759-b541-c1fe28585240'
 settings:
   id: 'block_content:d9ff9dd7-616f-4759-b541-c1fe28585240'
   label: 'About IRC block'
-  provider: block_content
   label_display: visible
+  provider: block_content
   status: true
   info: ''
   view_mode: full

@@ -5,7 +5,7 @@ features:
   favicon: 1
 logo:
   use_default: 0
-  path: 'public://ircommissionlogopng.png'
+  path: 'public://ircommissionlogo.png'
 favicon:
   use_default: 1
 twitter_profile_url: ''
@@ -14,3 +14,4 @@ linkedin_profile_url: ''
 pinterest_profile_url: ''
 youtube_profile_url: ''
 instagram_profile_url: ''
+basic_page_structure: 0

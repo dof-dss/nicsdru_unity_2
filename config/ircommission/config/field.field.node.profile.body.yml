@@ -10,10 +10,8 @@ dependencies:
     - text
 third_party_settings:
   allowed_formats:
-    basic_html: basic_html
-    restricted_html: '0'
-    full_html: '0'
-    plain_text: '0'
+    allowed_formats:
+      - basic_html
 _core:
   default_config_hash: tcUdYW1-nDWo_oABLjT_Sa2YxBvO9C7DLymhc03AL1E
 id: node.profile.body
