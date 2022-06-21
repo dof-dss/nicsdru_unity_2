@@ -12,3 +12,35 @@ a.btn {
   background: rgba(191,191,191,0.25);
   border-bottom-color: #f2b855;
 }
+.front {
+  .block {
+    h2 {
+      @include responsive-typo-map($h2-text);
+      margin: 36px 0px 12px;
+      padding: 0;
+    }
+  }
+
+  .block-system-main-block {
+    h2 {
+      @include adjust-font-size-to(20px, 5);
+
+      @include breakpoint($phab) {
+        @include adjust-font-size-to(30px, 6);
+      }
+      color: $brand-primary;
+      margin: 0.9rem 0 2.1rem;
+    }
+
+    p {
+      @include responsive-typo-map($h3-text);
+
+      @include breakpoint($phab) {
+        @include adjust-font-size-to(21px);
+      }
+     }
+    }
+  }
+
+
+
