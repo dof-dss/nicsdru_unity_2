@@ -19,8 +19,8 @@ plugin: 'views_exposed_filter_block:publications_search-publications_search_page
 settings:
   id: 'views_exposed_filter_block:publications_search-publications_search_page'
   label: ''
-  label_display: '0'
   provider: views
+  label_display: '0'
   views_label: ''
 visibility:
   condition_group:
