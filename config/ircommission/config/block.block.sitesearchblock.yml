@@ -17,8 +17,8 @@ plugin: site_search_block
 settings:
   id: site_search_block
   label: 'Site search block'
-  label_display: '0'
   provider: unity_search_pages
+  label_display: '0'
 visibility:
   condition_group:
     id: condition_group
