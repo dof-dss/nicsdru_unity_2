@@ -247,6 +247,7 @@ margin-left: 85px;
   border-bottom: none;
 }
 
-input:not(input[type="radio"]) {
-  display:none;
+
+input[type="checkbox"] {
+  display: none;
 }
