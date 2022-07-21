@@ -114,8 +114,9 @@ a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not
 
 
 .btnwrap {
-  margin-left: 85px;
-  margin-top: 80px;
+  margin-left: 8.5rem;
+  margin-top: 12rem;
+
 }
 
 
@@ -130,7 +131,7 @@ a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not
 
 a[href="/news"] {
   margin-left: 10rem;
-  margin-top: 7rem;
+  margin-top: 9rem;
 }
 
 
@@ -143,7 +144,7 @@ a[href="/news"] {
   margin-left: 6rem;
   display: inline-block;
   vertical-align: baseline;
-  margin-top: 6.1rem;
+  margin-top: 3.8rem;
 }
 
 
@@ -208,6 +209,7 @@ margin-left: 85px;
   padding: 2.3rem 1.5rem;
 }
 
+
 #footer ul {
   margin: auto;
   text-align: left;
@@ -224,12 +226,14 @@ margin-left: 85px;
 }
 
 
+
 #bottom_wrapper{
   display:flex;
 }
 
 .region.region-content {
   margin-left: 50px;
+  margin-top: 4rem;
 }
 
 #content a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not(.btn):not(.ui-menu-item-wrapper):not(.thwooper):not(.value):not(.card__title-link):not(.card):not(.layout-builder__link), .content a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not(.btn):not(.ui-menu-item-wrapper):not(.thwooper):not(.value):not(.card__title-link):not(.card):not(.layout-builder__link), #footer a:not(.toolbar-icon):not(.file-link):not(.facet--btn):not(.facet-item--link):not(.btn):not(.ui-menu-item-wrapper):not(.thwooper):not(.value):not(.card__title-link):not(.card):not(.layout-builder__link)
@@ -261,3 +265,9 @@ input[type="checkbox"] {
 #head, .main-content, .sidebar-second-layout, .sidebar-first-layout {
   margin-top: 0;
 }
+
+.block-page-title-block {
+  margin: 1rem 0 0.6rem;
+}
+
+

@@ -26,4 +26,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/key-documents\r\n/publications\r\n/research\r\n/contact-us"
+    pages: "/key-documents\r\n/research\r\n/contact-us\r\n/about-irc"
