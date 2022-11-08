@@ -4,7 +4,7 @@
 
 This source code is for the Unity 2 sites. It is built with Drupal 8 in a multisite configuration.
 
-It is hosted on platform.sh.
+It is hosted on platform.sh
 
 Continuous Integration and Deployment services are provided by Circle CI.
 
